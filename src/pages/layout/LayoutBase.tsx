@@ -5,7 +5,7 @@ import styles from "./LayoutBase.module.scss";
 import clsx from "clsx";
 
 import { useTheme } from "@mui/material/styles";
-import { IconButton, Divider, Drawer, CssBaseline } from "@mui/material";
+import { IconButton, Divider, Drawer } from "@mui/material";
 import { ChevronLeft as ChevronLeftIcon, ChevronRight as ChevronRightIcon } from "@mui/icons-material";
 import DefaultAppBar from "./DefaultAppBar";
 

@@ -16,6 +16,9 @@ const DefaultSideBar = () => {
             </List>
             <List>
                 <ListItem divider/>
+                <>
+                    <div className={styles.build}>{`${process.env.REACT_APP_VERSION}`}</div>
+                </>
                 <SidebarItem target="/settings" text="Settings" icon={<SettingsIcon/>}/>
             </List>
         </div>

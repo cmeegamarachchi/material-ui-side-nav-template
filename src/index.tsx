@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
 import {BrowserRouter} from "react-router-dom";
-import { ThemeProvider, Theme, StyledEngineProvider } from '@mui/material';
+import { ThemeProvider, StyledEngineProvider } from '@mui/material';
 import {theme} from './themes/default-theme';
+import reportWebVitals from './reportWebVitals';
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
+root.render(
   <React.StrictMode>
       <StyledEngineProvider injectFirst>
           <ThemeProvider theme={theme}>
@@ -16,4 +20,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           </ThemeProvider>
       </StyledEngineProvider>
   </React.StrictMode>
-)
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
