@@ -1,4 +1,4 @@
-# materila-ui-side-nav
+# material-ui-side-nav
 
 Material UI 5 based side-nav project  
 
@@ -6,6 +6,7 @@ Material UI 5 based side-nav project
 * Typescript
 
 To run  
+
 ```
   yarn dev
 ```
