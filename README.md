@@ -1,2 +1,11 @@
-# material-ui-side-nav-template
-Side nav starter project based on Material UI
+# materila-ui-side-nav
+
+Material UI 5 based side-nav project  
+
+* MUI 5
+* Typescript
+
+To run  
+```
+  yarn dev
+```
