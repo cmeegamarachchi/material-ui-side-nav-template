@@ -1,5 +1,6 @@
 # Material UI 5 based side-nav project
 
+* React 18
 * MUI 5
 * Typescript
 

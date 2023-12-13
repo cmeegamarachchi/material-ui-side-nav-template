@@ -13,7 +13,7 @@ interface Props {
 const DefaultAppBar: React.FC<Props> = ({open, onDrawerOpen}) => {
     const [appBarClassNames, setAppBarClassNames] = useState(styles.appBar);
 
-    const pageTitle = `Service Dashboard`;
+    const pageTitle = `Side nav template`;
 
     useEffect(() => {
         document.title = `${pageTitle}`;
@@ -40,7 +40,7 @@ const DefaultAppBar: React.FC<Props> = ({open, onDrawerOpen}) => {
                     <MenuIcon/>
                 </IconButton>
                 <Typography variant="h6" noWrap>
-                    Dashboard template
+                    Side nav template
                 </Typography>
                 <div className={styles.expander} />
                 <Typography variant="h6" noWrap>
